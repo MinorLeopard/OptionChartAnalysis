@@ -40,18 +40,18 @@ To get started with the Option Data Analysis Tool, follow these steps:
    git clone https://github.com/MinorLeopard/OptionChartAnalysis.git
    cd OptionChartAnalysis
 
-Create a virtual environment (optional but recommended):
+2. **Create a virtual environment (optional but recommended)**:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 
-python -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+3. **Install the required dependicies**
+   ```sh
+   pip install -r requirements.txt
 
-Install the required dependicies
-
-pip install -r requirements.txt
-
-RUN
-
-python main.py
+4. **RUN**:
+   ```sh
+   python main.py
 
 
 Configuration
